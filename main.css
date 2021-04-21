@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 450px;
+    padding: 1.5em;
+    padding-left: 3em;
+    border: 2px solid navy;
+    background-color: rgb(226, 215, 200);
+}
+h1, h4 {
+    color: navy;
+}
+h1{
+    margin: 0;
+}
+#headers {
+    display: flex;
+    margin: 0 auto;
+}
+#headers :nth-child(1) {
+    margin-right: 8em;
+}
+#headers :nth-child(2) {
+    margin-right: 1.3em;
+}
+#headers :nth-child(3) {
+    margin-right: 2.5em;
+}
+label{
+    width: 10em;
+    float: left;
+    padding-right: .5em;
+    padding-bottom: .5em;
+}
+input {
+    width: 4em;
+    margin-bottom: .5em;
+}
+#button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+}
+#button_input {
+    width: 120px;
+    height: 30px;
+    border-color: rgb(173, 173, 175);
+    background-color: rgb(128, 125, 125);
+    color: white;
+}
+#error_message {
+    color: red;
+    font-weight: bold;
+    margin: 0;
+    margin-top:.5em;
+}
+.results_list {
+    display: flex;
+    float: left;
+    text-align: center;
+}
+.results_list :nth-child(1), .results_list :nth-child(2), .results_list :nth-child(3) {
+    margin-right: 3em;
+}
+.assign_label {
+    width: 7.5em;
+    text-align: left;
+    padding-right: .5em;
+    padding-bottom: .5em;
+}
+.score_label {
+    width: 1.5em;
+    text-align: center;
+}
+.grade_label {
+    width: 4em;
+    text-align: center;
+}
+#total_grade {
+    display: flex;
+    float: right;
+    margin-right: 1em;
+}
